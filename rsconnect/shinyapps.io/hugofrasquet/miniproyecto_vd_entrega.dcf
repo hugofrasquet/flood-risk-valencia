@@ -1,0 +1,10 @@
+name: miniproyecto_vd_entrega
+title:
+username: hugofrasquet
+account: hugofrasquet
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14713598
+bundleId:
+url: https://hugofrasquet.shinyapps.io/miniproyecto_vd_entrega/
+version: 1
