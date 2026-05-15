@@ -1,0 +1,46 @@
+# ── R / RStudio ──────────────────────────────────────────────────────────────
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.user/
+.Rproj.user
+
+# ── Archivos grandes de datos geoespaciales ──────────────────────────────────
+# Los GeoJSON de zonas de inundación pesan entre 40 MB y 266 MB.
+# GitHub rechaza archivos >100 MB. Opciones:
+#   A) Usa Git LFS (recomendado): git lfs track "*.geojson"
+#   B) Descarga los datos desde las fuentes oficiales (ver README)
+#
+# Descomenta las líneas siguientes si NO usas Git LFS y quieres excluirlos:
+# www/inundaciones*.geojson
+# www/inundaciones*.shp
+# www/inundaciones*.dbf
+# www/inundaciones*.prj
+# www/inundaciones*.shx
+# www/inundaciones*.cpg
+
+# Shapefiles (duplican la info de los GeoJSON, pueden excluirse)
+# www/*.shp
+# www/*.dbf
+# www/*.prj
+# www/*.shx
+# www/*.cpg
+# www/*.qmd
+
+# ── Vídeo de demostración (pesa ~35 MB, mejor alojar en Drive/YouTube) ───────
+# Descomenta si prefieres no subirlo al repo:
+# *.mp4
+
+# ── rsconnect (configuración de despliegue personal) ─────────────────────────
+# Contiene tu account name y appId, puedes excluirlo si es un repo público:
+# rsconnect/
+
+# ── Sistemas operativos ───────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDEs ─────────────────────────────────────────────────────────────────────
+.idea/
+*.swp
+*.swo
